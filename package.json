@@ -1,6 +1,6 @@
 {
   "type": "module",
-  "version": "3.6.1",
+  "version": "3.6.3",
   "sideEffects": false,
   "main": "dist/index.cjs",
   "types": "dist/index.d.ts",
@@ -21,7 +21,7 @@
     "rollup": "rollup --config rollup.config.js",
     "beforePublish": "node ./scripts/beforePublish",
     "lint": "eslint website/src src --ext .ts,.tsx,.js,.jsx",
-    "publish": "npm run build && npm publish --tag=latest --access public"
+    "publish": "npm run build && npm publish --tag=latest"
   },
   "files": [
     "dist/",
